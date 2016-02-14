@@ -13,7 +13,7 @@ What about if somebody want to add a extra chapter to your book? The he could cl
 I have to make a confesion to you, we are not talking about a library or books, we are talking about computer file, and do this is pretty easy just go to github, and create a repository.
 https://www.youtube.com/watch?v=5qmltBssKDY
 
-Once you do that just go to terminal, and clone that repository by typing "git clone <the repository https url>"
+Once you do that just go to terminal, and clone that repository by typing "git clone \<the repository https url\>"
 Now you have your own copy Congratulations!
 
 
