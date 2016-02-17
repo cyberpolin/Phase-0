@@ -6,4 +6,4 @@
 
 ## Blog Wireframe
 
-![Blog wireframe](imgs/wireframe-blog.png "Cyberpolin's Blog WireFrame")
+![Blog wireframe](imgs/wireframe-blog-index.png "Cyberpolin's Blog WireFrame")
