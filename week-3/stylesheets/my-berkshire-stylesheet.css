@@ -1,0 +1,46 @@
+html {
+  color: #000080;
+  background-color: #ffffff;
+}
+
+a {
+  color: #800080;
+}
+
+a:visited {
+  color: #ff0000;
+}
+
+.column1 {
+  width: 40%;
+  display: inline-block;
+}
+
+span {
+  font-size: .7em;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 80%;
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
+
+.capital {
+  font-size: 160%;
+
+}
+
+.geico {
+  border-top: 1px solid gray;
+  text-align: center;
+  font-size: 70%;
+  border-bottom: 1px solid gray;
+}
+
+.legal {
+  border-top: 1px solid gray;
+  display: block;
+
+}
