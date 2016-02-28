@@ -22,18 +22,18 @@
 ###Ex 1
 ![Exercise 1](imgs/Ex-1.png)
 ###Ex 2
-![Exercise 2](imgs/ex-2.png)
+![Exercise 2](imgs/Ex-2.png)
 ###Ex 3
-(imgs/Ex-3.png)
+![Exercise 3](imgs/Ex-3.png)
 ###Ex 4
-(imgs/Ex-4.png)
+![Exercise 4](imgs/Ex-4.png)
 ###Ex 5
-(imgs/Ex-5.png)
+![Exercise 5](imgs/Ex-5.png)
 ###Ex 6
-(imgs/Ex-6.png)
+![Exercise 6](imgs/Ex-6.png)
 ###Ex 7
-(imgs/Ex-7.png)
+![Exercise 7](imgs/Ex-7.png)
 ###Ex 8
-(imgs/Ex-8.png)
+![Exercise 8](imgs/Ex-8.png)
 ###Ex 9
-(imgs/Ex-9.png)
+![Exercise 9, and last](imgs/Ex-9.png)
