@@ -20,7 +20,7 @@
 - I love the fact i could change on the fly something and see the result so fast, and in the other hand i had trouble positioning an element in certain way, i believe i need practice.
 
 ###Ex 1
-(imgs/Ex-1.png)
+![Exercise 1](imgs/Ex-1.png)
 ###Ex 2
 (imgs/Ex-2.png)
 ###Ex 3
