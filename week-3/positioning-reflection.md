@@ -36,4 +36,4 @@
 ###Ex 8
 ![Exercise 8](imgs/Ex-8.png)
 ###Ex 9
-![Exercise 9](imgs/Ex-9.png)
+![Exercise 9, and last](imgs/Ex-9.png)
