@@ -21,7 +21,7 @@ Mini Challenges
 =============================
 
 The numbers.rb
-'''ruby
+```ruby
 class TimeConverter
 
   def convert_years_to_hours(year)
@@ -61,11 +61,11 @@ end
 
 time = TimeConverter.new
 time.convert_decade_to_minutes(1)
-'''
+```
 
 The Rspec, i only use one scenario in each challenge because they are straight forward
 
-'''ruby
+```ruby
 require_relative "../2-5_numbers"
 
 describe TimeConverter do
@@ -97,7 +97,7 @@ describe TimeConverter do
   end
 
 end
-'''
+```
 
 ## Release 7
 How does Ruby handle addition, subtraction, multiplication, and division of numbers?
@@ -123,6 +123,6 @@ How was this challenge? Did you get a good review of some of the basics?
 
 ###URLS
 
-[Defining Variables](https://github.com/cyberpolin/Phase-0/blob/master/week-4/defining_variables.rb)
-[Simple String](https://github.com/cyberpolin/Phase-0/blob/master/week-4/simple_string.rb)
-[Basic Math](https://github.com/cyberpolin/Phase-0/blob/master/week-4/basic_math.rb)
+[Defining Variables](https://github.com/cyberpolin/Phase-0/blob/master/week-4/defining-variables.rb)
+[Simple String](https://github.com/cyberpolin/Phase-0/blob/master/week-4/simple-string.rb)
+[Basic Math](https://github.com/cyberpolin/Phase-0/blob/master/week-4/basic-math.rb)
