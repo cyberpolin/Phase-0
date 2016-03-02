@@ -125,4 +125,4 @@ How was this challenge? Did you get a good review of some of the basics?
 
 [Defining Variables](https://github.com/cyberpolin/Phase-0/blob/master/week-4/defining-variables.rb)
 [Simple String](https://github.com/cyberpolin/Phase-0/blob/master/week-4/simple-string.rb)
-[Basic Math](https://github.com/cyberpolin/Phase-0/blob/master/week-4/basic-math.rb)
+[Basic Math](https://github.com/cyberpolin/Phase-0/blob/master/week-4/basic_math.rb)
