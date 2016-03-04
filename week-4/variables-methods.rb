@@ -35,17 +35,26 @@ greet.greeting()
 greet.bigger_better()
 
 # How do you define a local variable?
-# => You just do it, the local variable is the easiest one to declare and use
+# => You just do it, the local variable is the easiest one to declare and use, the scope of this one is just the current file, or method.
+#    A good practice is to declare them in a way that just reading you know what's in it, also is a good practice to write spaces with underscore, for example last name variable would be last_name.
+ # last_name = "Gonzalez"
 
 # How do you define a method?
 # => by typing def followed by the name of the method, then add at end. Everything in between is the block that will execute when we call the method.
 #    A method can have parameters or not, this last ones are declared between parethesis, or arfet the name of the method.
+
+# def my_method()   #you can ignore the parenthesis but i think is a good practice to use them
+# return "I'm a method" #on the las line in the methos you don't need to use the return keyword
+# end
 
 # What is the difference between a local variable and a method?
 # => One is a variable, and the other is a way of asigning a label to a block of code, a method can have variables inside it self, and a variable can hold the result of a method.
 
 # How do you run a ruby program from the command line?
 # => ruby name_of_the_program.rb
+# => you even can run a program directly from command line like this...
+# ruby -e 'print "you see? a command line program"'
+# => You also can check syntax with ruby -cw name_of_the_program.rb #The w is just to add warnings
 
 # How do you run an RSpec file from the command line?
 # => rspec name_of_the_spec_file.rb
