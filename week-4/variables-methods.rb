@@ -55,4 +55,6 @@ greet.bigger_better()
 
 # Add a link to each exercise solution file as well so your peers can easily look at your code.
 # =>
+#https://github.com/cyberpolin/Phase-0/tree/master/week-4/address
+#https://github.com/cyberpolin/Phase-0/blob/master/week-4/math/my_solution.rb
 
