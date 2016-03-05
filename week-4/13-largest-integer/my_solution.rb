@@ -12,7 +12,7 @@
 
 # Your Solution Below
 def largest_integer(list_of_nums)
- # Your Solution Below
+
   if list_of_nums.length == 0
     return nil
   end

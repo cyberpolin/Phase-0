@@ -24,5 +24,3 @@ def smallest_integer(list_of_nums)
     end
   p greates_num
 end
-array = (1..10).to_a.shuffle
-smallest_integer array
