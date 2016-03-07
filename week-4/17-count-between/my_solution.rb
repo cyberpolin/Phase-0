@@ -18,15 +18,18 @@ def count_between(list_of_integers, lower_bound, upper_bound)
   # Your code goes here!
   return 0 if list_of_integers.length == 0
 
-  count = 0
+  flag = false
+  con
   # iter array
   list_of_integers.each do |x|
 
-    if x >= lower_bound && x <= upper_bound
+    if x >= lower_bound || x <= upper_bound
       #flag = !flag
-      count += 1
+      new_array.push(x)
     end
-
+    if flag == false
+      list_of_integers.delete(x)
+    end
   end
-  return count
+  return list_of_integers
 end
