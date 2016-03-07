@@ -53,3 +53,12 @@ describe 'my_info' do
     expect(my_info[:age]).to be > 0
   end
 end
+
+
+Index
+
+ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14
+[C][a][r][l][o][s][ ][G][o][n][z][a][l][e][z]
+
+
+
