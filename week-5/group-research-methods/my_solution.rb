@@ -39,15 +39,15 @@ my_hash_finding_method(my_family_pets_ages, 4)
 # # Person 2
 def my_array_modification_method!(source, thing_to_modify)
   new_array = source
-  new_array[2] +=1
-  new_array[7] +=1
+  new_array[2] += thing_to_modify
+  new_array[7] += thing_to_modify
   return new_array
 end
 
 def my_hash_modification_method!(source, thing_to_modify)
  new_array = source
  source.each {|k,v|
-  new_array[k] = v + 2
+  new_array[k] = v + thing_to_modify
  }
  return new_array
 end
