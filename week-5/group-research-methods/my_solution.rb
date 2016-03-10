@@ -54,7 +54,7 @@ end
 
 
 # # Identify and describe the Ruby method(s) you implemented.
-# #
+# # => I just use each to iter the hash :)
 # #
 # #
 
