@@ -106,3 +106,19 @@ add_item(list, "Tomatoes")
 remove_item(list, "pizza")
 update_item(list, "apples", 6)
 print_list(list)
+
+
+# Reflection
+
+# What did you learn about pseudocode from working on this challenge?
+# => that it helps a lot, and my pair help me to do a very good job with that!
+# What are the tradeoffs of using Arrays and Hashes for this challenge?
+# => well we use both, array just for iter it and later on make the hash
+# What does a method return?
+# => any value we pass after the return keyword, but it shoul return something meaninful
+# What kind of things can you pass into methods as arguments?
+# => Every kind of variable
+# How can you pass information between methods?
+# => Using te argument of the method
+# What concepts were solidified in this challenge, and what concepts are still confusing?
+# => i solidified methods and arguments, and i dont get yet what is a frozen value :)
