@@ -67,3 +67,14 @@ p serving_size_calc("cake", 7)
 p serving_size_calc("cookie", 1)
 p serving_size_calc("cookie", 10)
 p serving_size_calc("THIS IS AN ERROR", 5)
+
+#Reflection
+
+# What did you learn about making code readable by working on this challenge?
+# => That is not always the tinyest one the more readable.
+# Did you learn any new methods? What did you learn about them?
+# => has_key? a pretty nice method
+# What did you learn about accessing data in hashes?
+# => You can access via key or index
+# What concepts were solidified when working through this challenge?
+# => I guess te use of iteration
