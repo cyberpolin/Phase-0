@@ -16,9 +16,28 @@ var terah = {
 // __________________________________________
 // Write your code below.
 
+adam = {
+  "name"  : "Adam"
+}
 
-
-
+terah.spouse = adam
+terah.weight = 125
+delete terah.eyeColor
+adam.spouse = terah
+terah.children = {}
+carson = {
+  "name" : "Carson"
+}
+terah.children = {carson}
+carter = {
+  "name" : "Carter"
+}
+terah.children = {carson,carter}
+colton = {
+  "name" : "Colton"
+}
+terah.children = {carson, carter, colton}
+adam.children = terah.children
 
 
 
@@ -29,8 +48,12 @@ var terah = {
 // __________________________________________
 // Reflection: Use the reflection guidelines
 //
-//
-//
+// //What tests did you have trouble passing? What did you do to make it pass? Why did that work?
+  // adding new children objects to terah.children i didn't knew how to append one by one, i had to do it writing the three, i guess this is not the best way to do it.
+// How difficult was it to add and delete properties outside of the object itself?
+  // Not at all, i find it even easier than Ruby
+// What did you learn about manipulating objects in this challenge?
+  // Loved the dot concatenation, and that JSON can accept any variable.
 //
 //
 //
