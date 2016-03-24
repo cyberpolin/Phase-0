@@ -85,6 +85,22 @@ class VirusPredictor
 
 end
 
+# # REFLECTION
+# What are the differences between the two different hash syntaxes shown in the state_data file?
+# => one uses string as key and the other use symbols :)
+
+# What does require_relative do? How is it different from require?
+# => require_relative load files from a relative path, and require do it using an absolute path.
+
+# What are some ways to iterate through a hash?
+# => you can use each, map, and almost every enumerable method
+
+# When refactoring virus_effects, what stood out to you about the variables, if anything?
+# => there was no need to pass them as arguments because they are instance methods!
+
+# What concept did you most solidify in this challenge?
+# => The use of instance variables and the when conditional
+
 #=======================================================================
 
 # DRIVER CODE
