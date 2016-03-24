@@ -5,7 +5,10 @@
 // __________________________________________
 // Write your code below.
 
-
+secretNumber = 7
+password = 'just open the door'
+allowedIn = false
+members = ["John",2,2, "Mary"]
 
 
 
