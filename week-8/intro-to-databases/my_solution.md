@@ -50,3 +50,13 @@
 
 
 ## Reflection
+
+- What are databases for?
+  Saving persistence data in a more structured way than arrays or hashes.
+- What is a one-to-many relationship?
+  Is a relationship where one table can have many register of another, but not the other way arround.
+- What is a primary key? What is a foreign key? How can you determine which is which?
+  A primary key is a item that can not be repeated or NULL is something UNIQUE in that table, it can be used to match a foreign key.
+  Foreign key is like a primary key but it can be repeated besides is a way to make reference to a item in other table, it refers the other table primary key.
+- How can you select information out of a SQL database? What are some general guidelines for that?
+  you first SELECT the table or tables you want to retreive, then FROM which DB, and then conditions like WHERE or the ORDER you want to present the info.
