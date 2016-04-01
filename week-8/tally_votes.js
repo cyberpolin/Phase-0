@@ -1,8 +1,3 @@
-// Tally Votes in JavaScript Pairing Challenge.
-
-// I worked on this challenge with:
-// This challenge took me [#] hours.
-
 // These are the votes cast by each student. Do not alter these objects here.
 var votes = {
   "Alex": { president: "Bob", vicePresident: "Devin", secretary: "Gail", treasurer: "Kerry" },
@@ -65,33 +60,202 @@ var officers = {
 }
 
 // Pseudocode
+/*
+
+INPUT: each person's votes,
+OUTPUT: the vote count for each candidate
+Steps:
+
+Go through each voter:
+  Based on his pick for president, increase that candidate's votes in the vote count.
+  IF the current voter's pick for president is not yet present in the vote count container
+    create an entry for that candidate and assign it a vote of 1
+  ELSE
+    increase that candidate's vote count by 1
+  ENDIF
+
+
+//  Test Number 2
+
+
+Steps:
+
+Go through each voter:
+  Based on his pick for vice president, increase that candidate's votes in the vote count.
+  IF the current voter's pick for vice president is not yet present in the vote count container
+    create an entry for that candidate and assign it a vote of 1
+  ELSE
+    increase that candidate's vote count by 1
+  ENDIF
+
+
+// Tests Number 3 and 4
+
+* Same input and output as above tests
+For secretary and treasurer, do the same steps above (Test Number 2), except you
+replace "vice president" with "secretary" and "treasurer"
+
+
+// Test Number 5, 6, 7, and 8
+
+Go through each position in the voteCount:
+  Start winner variable with the first candidate key and value
+  Compare winner variable with current candidate and...
+  IF winner variable is smaller
+    assign winner variable to current candidate key and value
+  END IF
+  assign it to the corresponding officer position
+
+*/
 
 
 // __________________________________________
 // Initial Solution
 
+//  "Alex": { president: "Bob", vicePresident: "Devin", secretary: "Gail", treasurer: "Kerry" },
+
+// for (var voter in votes) {
+//   var candidate = votes[voter]["president"];
+
+//   if(voteCount["president"][candidate])
+//     voteCount["president"][candidate] += 1;
+//   else
+//     voteCount["president"][candidate] = 1;
+
+// }
+
+// for (var voter in votes) {
+//   var candidate = votes[voter]["vicePresident"];
+
+//   if(voteCount["vicePresident"][candidate])
+//     voteCount["vicePresident"][candidate] += 1;
+//   else
+//     voteCount["vicePresident"][candidate] = 1;
+// }
+
+// for (var voter in votes) {
+//   var candidate = votes[voter]["secretary"];
+
+//   if(voteCount["secretary"][candidate])
+//     voteCount["secretary"][candidate] += 1;
+//   else
+//     voteCount["secretary"][candidate] = 1;
+// }
+
+// for (var voter in votes) {
+//   var candidate = votes[voter]["treasurer"];
 
 
+//   if(voteCount["treasurer"][candidate])
+//     voteCount["treasurer"][candidate] += 1;
+//   else
+//     voteCount["treasurer"][candidate] = 1;
+// }
 
+// // Go through each position in the voteCount:
+// //   Start winner variable with the first candidate key and value
+// //   Compare winner variable with current candidate and...
+// //   IF winner variable is smaller
+// //     assign winner variable to current candidate key and value
+// //   END IF
+// //   assign it to the corresponding officer position
 
+// var candidates = [];
+// var candidateCount = [];
+// for (var key in voteCount["president"]){
+//   candidates.push(key);
+//   candidateCount.push(voteCount["president"][key]);
+// }
 
+// var counter = 0;
+// var winner = ["",0];
+
+// for (var vote in voteCount["president"]) {
+//     if (winner[1] < candidateCount[counter]){
+//     winner[1] = candidateCount[counter];
+//     winner[0] = candidates[counter];
+//   }
+//   counter++;
+// }
+// officers.president = winner[0];
+
+// // Tally the votes in voteCount.
+// // var voteCount = {
+// //   president: { Bob: 1, Louise: 10, ...},
+// //   vicePresident: {},
+// //   secretary: {},
+// //   treasurer: {}
+// // }
+// for (var position in voteCount) {
+//   var winner = ["", 0];
+
+//   for (var candidate in voteCount[position]) {
+//     var vote_count = voteCount[position][candidate];
+//     if (winner[1] < vote_count) {
+//       winner = [candidate, vote_count];
+//     }
+//   }
+
+//   officers[position] = winner[0];
+// }
+
+// console.log(voteCount);
+// console.log(officers);
 
 // __________________________________________
 // Refactored Solution
 
+//var voteCount = {
+// //   president: { Bob: 1, Louise: 10, ...},
+// //   vicePresident: {},
+// //   secretary: {},
+// //   treasurer: {}
+// // }
 
+  //votes = {
+  //"Alex": { president: "Bob", vicePresident: "Devin", secretary: "Gail", treasurer: "Kerry" },
 
+// Count the votes for each candidate
+for (var position in voteCount){
+  for (var voter in votes) {
+    var candidate = votes[voter][position];
+    var candidateVoteCount = voteCount[position][candidate];
 
+    if(candidateVoteCount) {
+      voteCount[position][candidate] += 1;
+    }
+    else
+      voteCount[position][candidate] = 1;
 
+  }
+}
 
-// __________________________________________
-// Reflection
+// Determines the winner candidate for each position
+for (var position in voteCount) {
+  var winner = ["", 0];
 
+  for (var candidate in voteCount[position]) {
+    var candidateVoteCount = voteCount[position][candidate]; //Just asigning a shorter name
+    if (winner[1] < candidateVoteCount) {
+      winner = [candidate, candidateVoteCount];
+    }
+  }
 
+  officers[position] = winner[0];
+}
 
+//console.log(voteCount);
+//console.log(officers);
+// REFLECTION
 
+// What did you learn about iterating over nested objects in JavaScript?
+  // Is like iterating any array or object, the key is just to be certain where you are.
 
+// Were you able to find useful methods to help you with this?
+  // We didn't look for them really.
 
+// What concepts were solidified in the process of working through this challenge?
+  // Javascript values overall.
 // __________________________________________
 // Test Code:  Do not alter code below this line.
 
