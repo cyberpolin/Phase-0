@@ -86,6 +86,7 @@ end
 
 
 
+
 # 1. DRIVER TESTS GO BELOW THIS LINE
 
 mini  = Car.new("red", "mini")
@@ -104,4 +105,10 @@ mini.turn("left")
 
 
 
-# 5. Reflection
+# # 5. Reflection
+# What concepts did you review or learn in this challenge?
+  # Classes and attr_accesor
+# What is still confusing to you about Ruby?
+  # i guess is not ruby but OOP
+# What are you going to study to get more prepared for Phase 1?
+  # The well grounded rubiest, and i'm doing every ruby challenge.
