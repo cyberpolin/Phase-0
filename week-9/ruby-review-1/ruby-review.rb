@@ -208,6 +208,14 @@ frank=Student.new({first_name: "Frank",
 
 students=[alex, tom, betty, susan, frank]
 
+#REFLECTION
+# What concepts did you review in this challenge?
+  # Enumerables and ruby all arround
+# What is still confusing to you about Ruby?
+  # Not so much just was hard to forgot about JS and get back to Ruby
+# What are you going to study to get more prepared for Phase 1?
+  # I'm going to complete every excercise...
+
 
 
 
